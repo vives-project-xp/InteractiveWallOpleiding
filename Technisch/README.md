@@ -43,7 +43,7 @@ In deze sectie vind je alle bestanden die gebruikt zijn voor de lasercutter om o
   - Materiaal: MDF-plaat 6mm
   - Hoeveelheid: 2
 
-  - **box_px2**: Box voor motor
+- **box_px2**: Box voor motor
   - Materiaal: MDF-plaat 6mm
   - Hoeveelheid: 1
 
@@ -59,18 +59,22 @@ Alle bestanden bevinden zich in de map: [CAD-bestanden](CAD-bestanden/)
 
 ## 3. Stap-per-Stap Constructie Instructies
 
-Volg de volgende stappen om het frame stap voor stap op te bouwen. Alle bestanden bevinden zich in de map: [CAD-bestanden](CAD-bestanden/)
+Volg de volgende stappen om het frame stap voor stap op te bouwen. 
 
 ### Stap 1: [Voorbereiding / Onderdelen controleren]
 
-- [Substap 1.1]
-- [Substap 1.2]
-- [Substap 1.3]
+Zorg dat je alle materialen hebt aangeschaft die te vinden zijn in de tabel eerder te vinden in deze readme. Zorg ook dat je de nodige stukken die moeten gelasercut of 3dprint worden hebt. eenmaal dit inorde is kan je starten met alles te monteren
 
-### Stap 2: [Assembling Component Part 1]
+### Stap 2: Frame voor rails
 
-- [Substap 2.1]
-- [Substap 2.2]
+Om de twee rails op hun plek te houden naast elkaar maken we een frame voor hieronder. Hiervoor heb je de **twee houten balken nodig van 2.1m**. 
+
+Je haalt uit beide een balk van 1,5m en een kleinere balk van 30,9cm. 
+Nu zou je moeten hebben:
+- 2 x 1,5m
+- 2 x 30,9cm
+
+De balken van 1,5m passen perfect onder de twee rails. Je kan deze vast maken met de **5x30mm schroeven**. Per rail gebruik je 10 schrouven voor het aan elkaar vast te maken. 
 
 ### Stap 3: [Assembling Component Part 2]
 
