@@ -76,24 +76,14 @@ Nu zou je moeten hebben:
 
 De balken van 1,5m passen perfect onder de twee rails. Je kan deze vast maken met de **5x30mm schroeven**. Per rail gebruik je 10 schrouven voor het aan elkaar vast te maken. 
 
+De balken van 30,9cm passen tussen de uiteinden van de balken en worden gemonteerd via de versterkingshoeken van **40x40x40**. Per versterkingshoek steek je 4 schroeven, deze zijn **5x30mm**.
+
+Aan de uiteinden van de rail steek je een stop die je via de CAD-bestanden kan vinden en steekt deze elk aan een uiteinde van het frame. De 5 nodige gaten zijn al voorzien en je gebruikt hier de **3,5x20mm** schroeven voor.
+
 ### Stap 3: [Assembling Component Part 2]
 
 - [Substap 3.1]
 - [Substap 3.2]
-
-### Stap 4: [Finalisering]
-
-- [Substap 4.1]
-- [Substap 4.2]
-- [Substap 4.3]
-
-### Tips & Opmerkingen
-
-- 
-- 
-- 
-
----
 
 ## Bijlagen
 
