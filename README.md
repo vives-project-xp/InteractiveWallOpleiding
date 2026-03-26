@@ -23,4 +23,4 @@ In [deze](./Technisch/README.md) map vindt je technische schema's en architectur
 | Mauro Carlier | Hardware |
 | Jonas Rollier | Hardware |
 | Mathias Verheecke | Software |
-| Cas Ghekiere | Hardware |
+      
