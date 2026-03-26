@@ -1,10 +1,10 @@
-# Fysieke Constructie - Interactive Wall 
+# Fysieke constructie - Interactive Wall
 
-Dit document beschrijft de complete fysieke constructie van het Interactive Wall systeem. Hier vind je alle informatie die nodig is om het frame en de fysieke componenten zelf te bouwen.
+Dit document beschrijft de volledige fysieke constructie van het Interactive Wall-systeem. Hier vind je alle informatie die nodig is om het frame en de fysieke componenten zelf te bouwen.
 
 ---
 
-## 1. Benodigde Materialen en Componenten
+## 1. Benodigde materialen en componenten
 
 Hieronder vind je een volledige lijst van alle materialen en componenten die we hebben gebruikt, inclusief links naar de producten.
 
@@ -25,7 +25,7 @@ Hieronder vind je een volledige lijst van alle materialen en componenten die we 
 | [Bouten M6x25mm](https://www.brico.be/nl/ijzerwaren/technische-bevestigingsmaterialen/bouten/zeskantbouten/sencys-zeskantbout-met-moer-staal-gegalvaniseerd-m6x25-mm/5367660) | 1 | € 3.99 |
 | [MDF-plaat 6mm](https://www.brico.be/nl/hout-ramen-trappen-deuren/hout/houten-platen/mdf-platen/mdf-plaat-fibromax-244x122cm-6mm/1887975) | 2 | € 25.50 |
 
-### Hardware Componenten
+### Hardwarecomponenten
 
 | Component | Hoeveelheid | Prijs |
 | :--- | :---: | ---: |
@@ -33,64 +33,74 @@ Hieronder vind je een volledige lijst van alle materialen en componenten die we 
 
 ---
 
-## 2. Lasercutter en 3D-printer Bestanden
+## 2. Lasercutter- en 3D-printerbestanden
 
-In deze sectie vind je alle bestanden die gebruikt zijn voor de lasercutter om onderdelen van het frame uit te snijden.
+In deze sectie vind je alle bestanden die gebruikt zijn om onderdelen van het frame met de lasercutter uit te snijden.
 
-### Beschikbare Bestanden
+### Beschikbare bestanden
 
-- **Remplaat_Drawing**: Rem plaatjes voor rail
+- **Remplaat_Drawing**: remplaatjes voor de rail
   - Materiaal: MDF-plaat 6mm
   - Hoeveelheid: 2
 
-- **box_px2**: Box voor motor
+- **box_px2**: box voor de motor
   - Materiaal: MDF-plaat 6mm
   - Hoeveelheid: 1
-  - Opmerking: Verwijder zelf de tekst (zoals bottom) en de kruisjes op de gaten als je deze niet wil. 
+  - Opmerking: Verwijder zelf de tekst (zoals bottom) en de kruisjes op de gaten als je die niet wilt.
 
-- **Tussenstuk_ipadhouder2**: Tussenstuk die ipadhouder aan stang koppelt
+- **Tussenstuk_ipadhouder2**: tussenstuk dat de iPad-houder aan de stang koppelt
   - Materiaal: PLA (zwart)
   - Hoeveelheid: 1
 
-### Download & Details
+### Download & details
 
 Alle bestanden bevinden zich in de map: [CAD-bestanden](CAD-bestanden/)
 
 ---
 
-## 3. Stap-per-Stap Constructie Instructies
+## 3. Stap-voor-stap constructie-instructies
 
-Volg de volgende stappen om het frame stap voor stap op te bouwen. 
+Volg de volgende stappen om het frame stap voor stap op te bouwen.
 
-### Stap 1: [Voorbereiding / Onderdelen controleren]
+### Stap 1: Voorbereiding en onderdelen controleren
 
-Zorg dat je alle materialen hebt aangeschaft die te vinden zijn in de tabel eerder te vinden in deze readme. Zorg ook dat je de nodige stukken die moeten gelasercut of 3dprint worden hebt. eenmaal dit inorde is kan je starten met alles te monteren
+Zorg dat je alle materialen hebt aangeschaft die in de tabel van deze README staan. Zorg er ook voor dat je alle onderdelen die gelaserd of 3D-geprint moeten worden, klaar hebt liggen. Zodra dat in orde is, kan je starten met monteren.
 
-### Stap 2: Frame voor rails
+### Stap 2: Frame voor de rails
 
-Om de twee rails op hun plek te houden naast elkaar maken we een frame voor hieronder. Hiervoor heb je de **twee houten balken nodig van 2.1m**. 
+Om de twee rails naast elkaar op hun plaats te houden, maken we hieronder een frame. Hiervoor heb je de **twee houten balken van 2,1 m** nodig.
 
-Je haalt uit beide een balk van 1,5m en een kleinere balk van 30,9cm. 
+Uit beide balken haal je een stuk van 1,5 m en een kleiner stuk van 30,9 cm.
 Nu zou je moeten hebben:
 - 2 x 1,5m
 - 2 x 30,9cm
 
-De balken van 1,5m passen perfect onder de twee rails. Je kan deze vast maken met de **5x30mm schroeven**. Per rail gebruik je 10 schrouven voor het aan elkaar vast te maken. 
+De balken van 1,5 m passen perfect onder de twee rails. Je kan deze vastmaken met de **5x30 mm schroeven**. Per rail gebruik je 10 schroeven om alles aan elkaar te bevestigen.
 
-De balken van 30,9cm passen tussen de uiteinden van de balken en worden gemonteerd via de versterkingshoeken van **40x40x40**. Per versterkingshoek steek je 4 schroeven, deze zijn **5x30mm**.
+De balken van 30,9 cm passen tussen de uiteinden van de lange balken en worden gemonteerd met de versterkingshoeken van **40x40x40**. Per versterkingshoek gebruik je 4 schroeven van **5x30 mm**. Je monteerd deze versterkinghouken allemaal aan de binnenkant van het frame.
 
-Aan de uiteinden van de rail steek je een stop die je via de CAD-bestanden kan vinden en steekt deze elk aan een uiteinde van het frame. De 5 nodige gaten zijn al voorzien en je gebruikt hier de **3,5x20mm** schroeven voor.
+Aan de uiteinden van de rails plaats je een stop, die je in de CAD-bestanden kan terugvinden, en monteer je die op elk uiteinde van het frame. De 5 nodige gaten zijn al voorzien. Gebruik hiervoor de **3,5x20 mm** schroeven.
 
-### Stap 3: Grondplaat en box 
+### Stap 3: Grondplaat en box
 
-Uit de **Houten plaat 9mm** zaag je een plaat van 40cm op 40cm. Dit is een stevige grondplaat waar de box later op kan bevestigd worden. De gaten om deze vast te maken kan je aftekenen door de onderste plaat van de box hier op te leggen en zo de 4 gaten op te tekenen en handmatig te boren. 
+Uit de **houten plaat van 9 mm** zaag je een plaat van 40 cm op 40 cm. Dit is een stevige grondplaat waarop de box later bevestigd kan worden. Je kan de gaten aftekenen door de onderste plaat van de box erop te leggen, de 4 gaten over te nemen en ze daarna handmatig te boren.
 
-<img src="Technisch\foto\bottom.png" height="200">
+<img src="./foto/bottom.png" alt="bottom" width="300">
 
+Als de gaten ook in deze plaat zitten, kan je de twee platen op elkaar leggen en vastmaken aan de 4 glijblokken. Die zouden moeten overeenkomen met het binnenste gat van elk glijblok. Daarna kan je de twee platen vastzetten met 4 **M6x25 mm bouten**.
 
-Als dit gelukt is kan je de twee 
-## Bijlagen
+De andere platen van de box passen perfect in elkaar. Als alles correct geplaatst is, kan je de platen vastlijmen zodat het een stevig geheel wordt.
 
-- [Link naar diagram / afbeeldingen]
-- [Link naar video / extra resources]
+### Stap 4: Stang voor tablet
+
+Het geprinte tussenstuk zou perfect moeten passen op de Vonyx MS100B microfoonstandaard. Je kan het bovenste metalen stukje eraf draaien en in het tussenstuk duwen, zodat je dit tussenstuk daarna opnieuw stevig op de stang kan vastdraaien.
+
+Nu kan je de **tablethouder** met 2 **M4x20 mm bouten** vastmaken aan het tussenstuk, zodat je de tablet op de stang kan klikken.
+
+## Resultaat
+
+Dit is het resultaat dat je zou moeten bekomen na het uitvoeren van al deze stappen:
+
+<img src="./foto/resultaat.jpg" alt="resultaat" width="300">
+
 
