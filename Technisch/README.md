@@ -46,6 +46,7 @@ In deze sectie vind je alle bestanden die gebruikt zijn voor de lasercutter om o
 - **box_px2**: Box voor motor
   - Materiaal: MDF-plaat 6mm
   - Hoeveelheid: 1
+  - Opmerking: Verwijder zelf de tekst (zoals bottom) en de kruisjes op de gaten als je deze niet wil. 
 
 - **Tussenstuk_ipadhouder2**: Tussenstuk die ipadhouder aan stang koppelt
   - Materiaal: PLA (zwart)
@@ -80,11 +81,14 @@ De balken van 30,9cm passen tussen de uiteinden van de balken en worden gemontee
 
 Aan de uiteinden van de rail steek je een stop die je via de CAD-bestanden kan vinden en steekt deze elk aan een uiteinde van het frame. De 5 nodige gaten zijn al voorzien en je gebruikt hier de **3,5x20mm** schroeven voor.
 
-### Stap 3: [Assembling Component Part 2]
+### Stap 3: Grondplaat en box 
 
-- [Substap 3.1]
-- [Substap 3.2]
+Uit de **Houten plaat 9mm** zaag je een plaat van 40cm op 40cm. Dit is een stevige grondplaat waar de box later op kan bevestigd worden. De gaten om deze vast te maken kan je aftekenen door de onderste plaat van de box hier op te leggen en zo de 4 gaten op te tekenen en handmatig te boren. 
 
+<img src="Technisch\foto\bottom.png" height="200">
+
+
+Als dit gelukt is kan je de twee 
 ## Bijlagen
 
 - [Link naar diagram / afbeeldingen]
