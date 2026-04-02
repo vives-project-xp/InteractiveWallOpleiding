@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="questbewerkt" size="2.000000 1.413793" />
+    <ImageTarget name="printerbewerkt" size="2.000000 1.936000" />
+    <ImageTarget name="campusbewerkt" size="2.000000 1.433333" />
+    <ImageTarget name="vivesbewerkt" size="2.000000 0.715282" />
+    <ImageTarget name="networksbewerkt" size="2.000000 1.700000" />
+    <ImageTarget name="codebewerkt" size="2.000000 1.536036" />
+    <ImageTarget name="pcbbewerkt" size="2.000000 1.090625" />
+    <ImageTarget name="aibewerkt" size="2.000000 1.218124" />
+  </Tracking>
+</QCARConfig>

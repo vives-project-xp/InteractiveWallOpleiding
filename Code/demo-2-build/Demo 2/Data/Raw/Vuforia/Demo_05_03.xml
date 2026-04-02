@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="Quest" size="0.500000 0.500000" />
+    <ImageTarget name="CPU" size="0.500000 0.333496" />
+    <ImageTarget name="Vives" size="0.500000 0.501391" />
+  </Tracking>
+</QCARConfig>
