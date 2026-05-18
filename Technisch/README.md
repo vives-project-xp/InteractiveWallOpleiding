@@ -1,6 +1,7 @@
 # Fysieke constructie - Interactive Wall
 
-Dit document beschrijft de volledige fysieke constructie van het Interactive Wall-systeem. Hier vind je alle informatie die nodig is om het frame en de fysieke componenten zelf te bouwen. Dit is wel enkel voor het systeem met de pistol grip; alle technische uitleg voor het stepper motor systeem vind je in de [Motor-systeem](Motor-systeem.md).
+Dit document beschrijft de volledige fysieke constructie van het Interactive Wall-systeem. Hier vind je alle informatie die nodig is om het frame en de fysieke componenten zelf te bouwen. Dit is wel enkel voor het systeem met de pistol grip; alle technische uitleg voor het stappenmotor systeem vind je in de [Motor-systeem](Motor-systeem.md).
+
 ---
 
 ## 1. Benodigde materialen en componenten
@@ -36,12 +37,12 @@ In deze sectie vind je alle bestanden die gebruikt zijn om onderdelen van het fr
   - Materiaal: MDF-plaat 6mm
   - Hoeveelheid: 2
 
-- **box_px2**: box voor de motor
+- **box_pistol**: de box
   - Materiaal: MDF-plaat 6mm
   - Hoeveelheid: 1
   - Opmerking: Verwijder zelf de tekst (zoals bottom) en de kruisjes op de gaten als je die niet wilt op je box.
 
-- **Tussenstuk_ipadhouder2**: tussenstuk dat de iPad-houder aan de stang koppelt
+- **Tussenstuk_ipadhouder_pistolgrip**: tussenstuk dat de iPad-houder aan de pistolgrip stang koppelt
   - Materiaal: PLA (zwart)
   - Hoeveelheid: 1
 
@@ -86,14 +87,14 @@ De andere platen van de box passen perfect in elkaar. Als alles correct geplaats
 
 ### Stap 4: Stang voor tablet
 
-Het geprinte tussenstuk zou perfect moeten passen op de Vonyx MS100B microfoonstandaard. Je kan het bovenste metalen stukje eraf draaien en in het tussenstuk duwen, zodat je dit tussenstuk daarna opnieuw stevig op de stang kan vastdraaien.
+Het geprinte tussenstuk zou perfect moeten passen op het microfoonstatief. Je kan het bovenste metalen stukje eraf draaien en in het tussenstuk duwen, zodat je dit tussenstuk daarna opnieuw stevig op de stang kan vastdraaien.
+
+<img src="./foto/ipad-tussenstuk.jpg" alt="resultaat" width="300">
 
 Nu kan je de **tablethouder** met 2 **M4x20 mm bouten** vastmaken aan het tussenstuk, zodat je de tablet op de stang kan klikken.
 
 ## Resultaat
 
-Dit is het resultaat dat je zou moeten bekomen na het uitvoeren van deze 4 stappen:
+Dit is het resultaat dat je zou moeten bekomen na het uitvoeren van al deze stappen:
 
 <img src="./foto/resultaat.jpg" alt="resultaat" width="300">
-
-
