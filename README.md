@@ -28,7 +28,7 @@ Gebruikers scannen fysieke objecten of image targets met een tablet. Daarna star
 - Unity-versie: 6000.0.067f1.
 - AR-tracking: Vuforia Engine.
 - Platformen: iOS en Android.
-- Belangrijkste flow: hoofdmenu -> pincode -> doelgroep-scène -> AR-content.
+- Belangrijkste flow: hoofdmenu -> doelgroep-scène -> AR-content.
 
 ## Team
 
