@@ -33,16 +33,16 @@ In deze sectie vind je alle bestanden die gebruikt zijn om onderdelen van het fr
 
 ### Beschikbare bestanden
 
-- **Remplaat_Drawing**: remplaatjes voor de rail
+- **Remplaat_Drawing.dxf**: remplaatjes voor de rail
   - Materiaal: MDF-plaat 6mm
   - Hoeveelheid: 2
 
-- **box_pistol**: de box
+- **box_pistol.dxf**: de box
   - Materiaal: MDF-plaat 6mm
   - Hoeveelheid: 1
   - Opmerking: Verwijder zelf de tekst (zoals bottom) en de kruisjes op de gaten als je die niet wilt op je box.
 
-- **Tussenstuk_ipadhouder_pistolgrip**: tussenstuk dat de iPad-houder aan de pistolgrip stang koppelt
+- **Tussenstuk_ipadhouder_pistolgrip.stl**: tussenstuk dat de iPad-houder aan de pistolgrip stang koppelt
   - Materiaal: PLA (zwart)
   - Hoeveelheid: 1
 
