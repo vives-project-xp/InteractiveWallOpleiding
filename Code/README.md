@@ -1,41 +1,46 @@
 ## Code
 
-In deze map kan je enkele builds en het uiteindelijke Unity project terugvinden. Verder vind je hier ook zaken zoals de architectuur van de code en enkele functionaliteiten.
+In deze map staat de Unity-export van het project, samen met de bijhorende buildbestanden en de documentatie die je nodig hebt om de app te begrijpen of opnieuw te gebruiken.
 
-## Project Architectuur
+## Wat je hier terugvindt
 
-### 1. Belangrijkste Packages
-* Vuforia Engine: Gebruikt voor Image Target herkenning en AR-tracking.
-* TextMeshPro: Voor scherpe, schaalbare UI-teksten in het hoofdmenu en de pop-ups.
-* Unity UI: Voor het grid-systeem en het beveiligde inlogpaneel.
+- De Unity-build onder `demo-2-build/Demo 2`.
+- De AR- en UI-flow van de app, met het hoofdmenu als startpunt.
+- Ondersteunende bestanden voor iOS, Android en Unity/IL2CPP-exports.
 
-### 2. Mappenstructuur
-* Assets/Scenes/: Bevat de verschillende omgevingen (hoofdmenu, ICT_scene, kleuter_scene, zorg_scene).
-* Assets/Scripts/: Bevat de logica voor de `MenuManager` en de `ARVideoManager`.
-* Assets/Sprites/: Bevat de iconen voor de interface (ingesteld als Sprite 2D and UI).
-* Assets/StreamingAssets/: Bevat de videobestanden die door Vuforia worden aangeroepen.
+## Belangrijkste onderdelen
 
-## Functionaliteiten
+### Packages en technologie
 
-### Hoofdmenu & Navigatie
-De app start in een centraal hub-menu. Gebruikers kunnen schakelen tussen verschillende richtingen:
-* ICT: Focus op interactieve muren en techniek.
-* Kleuteronderwijs: Educatieve AR-toepassingen voor jonge kinderen.
-* Verpleegkunde: Medische simulaties en procedurele ondersteuning.
+- Vuforia Engine: image target herkenning en AR-tracking.
+- TextMeshPro: scherpere UI-teksten in het hoofdmenu en inlogschermen.
+- Unity UI: canvas, buttons, input fields en menu-opbouw.
 
-### Beveiliging (Pincode)
-Toegang tot de specifieke richtingen is beveiligd met een toegangscode-systeem. Dit voorkomt dat onbevoegden per ongeluk in de verkeerde leeromgeving terechtkomen. De codes kunnen worden geconfigureerd in de `MenuManager` component in de Inspector.
+### Logische flow
 
-## Gebruikinstructies
+- `hoofdmenu` is het centrale startpunt.
+- De knoppen leiden naar ICT, Kleuter en Verpleegkunde.
+- `MenuManager` beheert de navigatie en de codecontrole.
 
-1. Start: Open de scène `hoofdmenu` en druk op Play (of start de build op de tablet).
-2. Selectie: Klik op een van de drie service-blokken.
-3. Authenticatie: Voer de pincode in die bij de betreffende richting hoort.
-4. AR-Interactie: Richt de camera op een geregistreerd Image Target om de bijbehorende video of content te starten.
-5. Terugkeren: Gebruik de 'Home'-knop in de AR-scène om terug te keren naar het hoofdmenu.
+### Praktische opbouw
 
-## Probleemoplossing (Troubleshooting)
+- De menu-scene gebruikt een gridlayout voor de diensten.
+- AR-content wordt opgestart via image targets en de bijhorende media.
 
-* Video start niet: Controleer of de video in de `StreamingAssets` map staat en of de naam exact overeenkomt in de `ARVideoManager`.
-* Afbeelding wordt niet herkend: Zorg voor voldoende licht en controleer de "Tracking Rating" in de Vuforia Developer Portal.
-* Input Field werkt niet: Controleer of de `EventSystem` aanwezig is in de scène-hierarchy.
+## Gebruik
+
+1. Open de Unity-export in `demo-2-build/Demo 2`.
+2. Start de scène `hoofdmenu`.
+3. Kies een richting.
+4. Scan een image target om de content te activeren.
+5. Gebruik de homeknop in de AR-scène om terug te keren naar het hoofdmenu.
+
+## Problemen die vaak terugkomen
+
+- Als een video niet start, controleer dan of de asset in `StreamingAssets` staat en of de naam exact overeenkomt met de code.
+- Als een image target niet herkend wordt, controleer lichtinval, afstand en de Vuforia-configuratie.
+- Als invoervelden niet reageren, controleer of `EventSystem` en de UI-componenten correct aan de scene gekoppeld zijn.
+
+## Verwijzing
+
+- Start hier voor de Unity-configuratie: [Documentatie](../Documentatie/README.md)

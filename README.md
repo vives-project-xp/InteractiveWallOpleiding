@@ -6,30 +6,29 @@
 
 ## Doel
 
-Dit project transformeert een fysieke omgeving in een interactieve leerervaring met behulp van Augmented Reality (AR). Oorspronkelijk ontwikkeld als een **Interactive Video Wall** waarbij een scherm op een rail beweegt, is het platform nu uitgebreid naar een breed inzetbare tool voor diverse opleidingen binnen VIVES.
+PX2 is een AR-gedreven leerplatform dat een fysieke ruimte koppelt aan digitale content. De applicatie is gestart als een interactieve video wall op een rail, maar is intussen breder inzetbaar voor meerdere opleidingen en demonstraties binnen VIVES.
 
-## Functie
+Gebruikers scannen fysieke objecten of image targets met een tablet. Daarna start contextuele video, navigatie of instructie. Het hoofdmenu werkt met een pincode-flow zodat elke doelgroep naar de juiste ervaring kan worden gestuurd.
 
-De applicatie stelt gebruikers in staat om via een tablet (iPad/Android) informatie te ontdekken door simpelweg fysieke objecten of afbeeldingen te scannen. Afhankelijk van de gekozen modus passen de video's en interacties zich aan:
+## Overzicht
 
-* **Elektronica-ICT:** Ontdek de hardware en projecten via de interactieve rail.
-* **Kleuteronderwijs:** Breng prentenboeken en de klasomgeving tot leven voor interactief leren.
-* **Verpleegkunde:** Volg stap-voor-stap instructies en medische procedures via AR-ondersteuning.
+- [Code](./Code/README.md): Unity-export, menu-logica, AR-configuratie en praktische gebruiksinfo.
+- [Documentatie](./Documentatie/README.md): Startpunt naar de Unity-instellingen, het hoofdmenu en de deployment-stappen voor iOS en Android.
+- [Technisch](./Technisch/README.md): Bouwinformatie voor de fysieke constructie, materialen en CAD-bestanden.
 
-Door gebruik te maken van een centraal **Hub-menu** met **pincode-beveiliging**, kunnen specifieke ervaringen worden afgeschermd voor de juiste doelgroep. Dit maakt de app veilig en multifunctioneel inzetbaar tijdens opendeurdagen of in de klas.
+## Snel aan de slag
 
-## Inhoud van de Repository
+1. Open de Unity-export in [Code](./Code/README.md).
+2. Start de scène `hoofdmenu`.
+3. Kies de juiste richting: ICT, Kleuter of Verpleegkunde.
+4. Scan een image target om de content te starten.
 
-* **[Code](./Code/README.md):** Hier vind je de Unity-projectbestanden, de `MenuManager` logica (inclusief het pincode-systeem) en de AR-tracking configuratie.
-* **[Documentatie](./Documentatie/README.md):** Alle stappen om het project zelf op te zetten, van het configureren van het Unity-hoofdmenu tot het builden naar iOS en Android.
-* **[Technisch](./Technisch/README.md):** Bevat de bouwplannen, materiaallijsten en prijzen voor de fysieke rail en de behuizing van de interactive wall.
+## Huidige opzet
 
-## Gebruik in het kort
-
-1.  Start de app op in de scène `hoofdmenu`.
-2.  Kies de gewenste sector (ICT, Kleuter of Verpleegkunde).
-3.  Voer de bijbehorende toegangscode in.
-4.  Scan de Image Targets in de ruimte om de interactieve content te starten.
+- Unity-versie: 6000.0.067f1.
+- AR-tracking: Vuforia Engine.
+- Platformen: iOS en Android.
+- Belangrijkste flow: hoofdmenu -> pincode -> doelgroep-scène -> AR-content.
 
 ## Team
 
