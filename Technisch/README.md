@@ -1,7 +1,6 @@
 # Fysieke constructie - Interactive Wall
 
-Dit document beschrijft de volledige fysieke constructie van het Interactive Wall-systeem. Hier vind je alle informatie die nodig is om het frame en de fysieke componenten zelf te bouwen.
-
+Dit document beschrijft de volledige fysieke constructie van het Interactive Wall-systeem. Hier vind je alle informatie die nodig is om het frame en de fysieke componenten zelf te bouwen. Dit is wel enkel voor het systeem met de pistol grip; alle technische uitleg voor het stepper motor systeem vind je in de [Motor-systeem](Motor-systeem.md).
 ---
 
 ## 1. Benodigde materialen en componenten
@@ -15,7 +14,7 @@ Hieronder vind je een volledige lijst van alle materialen en componenten die we 
 | :--- | :---: | ---: |
 | [Lineaire geleiderail](https://www.vevor.nl/lineaire-geleiderail-c_45317/vevor-lineaire-geleider-lineaire-rail-2-stuks-sbr20-1500mm-koolstofstaal-aluminium-geleiderail-met-4-stuks-sbr20uu-glijblokken-lineaire-lagerlagerblok-cnc-onderdelen-voor-3d-printer-freesdraaibank-p_010340680230)| 2 | € 64.99 |
 | [Tablethouder](https://www.conrad.be/nl/p/my-wall-hz51l-adapter-voor-tablethouder-11-9-cm-4-7-38-1-cm-15-3314698.html) | 1 | € 16.99 |
-| [Vonyx MS100B microfoonstandaard](https://www.maxiaxi.com/vonyx-ms100b-microfoonstandaard-in-hoogte-verstelbaar-zwart/?utm_source=beslist&utm_medium=cpc&utm_campaign=beslist&bl3nlclid=983d09c5-7bcc-4e01-aef6-ad41a3be07ba&utm_term=BESLI983d09c5-7bcc-4e01-aef6-ad41a3be07ba) | 1 | € 35.00 |
+| [microfoonstatief met one-hand clutch](https://www.bax-shop.be/nl/solo-recht-microfoon-statieven/gravity-ms-231-hb-microfoonstatief-met-one-hand-clutch-zwart?utm_source=google&utm_medium=cpc&utm_campaign=Cha_Bax_BENL_NBD_Shopping_Trade-Brand_invisibles&utm_id=23431689268&gad_source=1&gad_campaignid=23431689268&gbraid=0AAAAA_lFRUxjhNKOhSK6Ev-zWd7xmQpjh&gclid=Cj0KCQiA8KTNBhD_ARIsAOvp6DLp7PaJW20p6PqRLrP564r4gC_0adQfoeH2Qu8pOz9l7wF-UYfzp0AaAiwXEALw_wcB) | 1 | € 47.00 |
 | [Houten balk 2.1m](https://www.hubo.be/nl/p/vurenhout-geschaafd-44x44-mm-210cm/20865/) | 2 | € 6.91 |
 | [Houten plaat 9mm](https://www.hubo.be/nl/p/mdf-plaat-244x122-cm-9mm/2694/) | 1 | € 22.99 |
 | [Versterkingshoek 40x40x40mm](https://www.brico.be/nl/ijzerwaren/montage-bouwbeslag/hoekijzers-verbindingsplaten/hoekankers/alberts-versterkingshoek-verzinkt-staal-gelijkbenig-40x40x40mm/10022635) | 4 | € 1.60 |
@@ -24,12 +23,6 @@ Hieronder vind je een volledige lijst van alle materialen en componenten die we 
 | [Bouten M4x20mm](https://www.brico.be/nl/ijzerwaren/technische-bevestigingsmaterialen/bouten/slotbouten/sencys-metaalschroef-staal-m4x20-mm/5367446) | 1 | € 4.69 |
 | [Bouten M6x25mm](https://www.brico.be/nl/ijzerwaren/technische-bevestigingsmaterialen/bouten/zeskantbouten/sencys-zeskantbout-met-moer-staal-gegalvaniseerd-m6x25-mm/5367660) | 1 | € 3.99 |
 | [MDF-plaat 6mm](https://www.brico.be/nl/hout-ramen-trappen-deuren/hout/houten-platen/mdf-platen/mdf-plaat-fibromax-244x122cm-6mm/1887975) | 2 | € 25.50 |
-
-### Hardwarecomponenten
-
-| Component | Hoeveelheid | Prijs |
-| :--- | :---: | ---: |
-| Links | Midden | Rechts |
 
 ---
 
@@ -46,7 +39,7 @@ In deze sectie vind je alle bestanden die gebruikt zijn om onderdelen van het fr
 - **box_px2**: box voor de motor
   - Materiaal: MDF-plaat 6mm
   - Hoeveelheid: 1
-  - Opmerking: Verwijder zelf de tekst (zoals bottom) en de kruisjes op de gaten als je die niet wilt.
+  - Opmerking: Verwijder zelf de tekst (zoals bottom) en de kruisjes op de gaten als je die niet wilt op je box.
 
 - **Tussenstuk_ipadhouder2**: tussenstuk dat de iPad-houder aan de stang koppelt
   - Materiaal: PLA (zwart)
@@ -99,7 +92,7 @@ Nu kan je de **tablethouder** met 2 **M4x20 mm bouten** vastmaken aan het tussen
 
 ## Resultaat
 
-Dit is het resultaat dat je zou moeten bekomen na het uitvoeren van al deze stappen:
+Dit is het resultaat dat je zou moeten bekomen na het uitvoeren van deze 4 stappen:
 
 <img src="./foto/resultaat.jpg" alt="resultaat" width="300">
 
