@@ -84,7 +84,7 @@ Alle bestanden bevinden zich in de map: [CAD-bestanden/Motor-systeem](CAD-bestan
 ---
 
 ## 4. Arduino Broncode
-De broncode voor arduino is hier te vinden in de map [Code](px2_motor.ino).
+De broncode voor Arduino is hier te vinden: [Code/px2_motor.ino](../Code/px2_motor.ino).
 
 
 ## 5. Technische Specificaties & Voedingen
