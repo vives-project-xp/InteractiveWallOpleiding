@@ -98,5 +98,3 @@ Nu kan je de **tablethouder** met 2 **M4x20 mm bouten** vastmaken aan het tussen
 Dit is het resultaat dat je zou moeten bekomen na het uitvoeren van al deze stappen:
 
 <img src="./foto/resultaat.jpg" alt="resultaat" width="300">
-
-*** End Patch

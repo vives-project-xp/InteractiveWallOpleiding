@@ -13,7 +13,7 @@ Hieronder staan de benodigde onderdelen voor de uitbreiding met de elektrische w
 | Component | Hoeveelheid | Prijs |.
 | :--- | :---: | ---: | --- |
 | [Stepper motor](https://www.123-3d.nl/123-3D-NEMA17-stappenmotor-1-8-graden-per-stap-40-mm-lang-4-08-kg-cm-SL42S240A105-0524-i3421.html) | 1 | €13,50 |
-| [Motor driver]([type](https://www.123-3d.nl/123-3D-Stepstick-DRV8825-stappenmotordriver-i96.html)) | 1 | €6,35 |
+| [Motor driver](https://www.123-3d.nl/123-3D-Stepstick-DRV8825-stappenmotordriver-i96.html) | 1 | €6,35 |
 | [Voedingsadapter](https://www.allekabels.be/ac-dc-adapter/7207/1307581/acdc-adapter.html?mc=nl-be&gad_source=1&gad_campaignid=23389431341&gbraid=0AAAAAC3CB_okD0SKQMrVZA9-wxPausReL&gclid=CjwKCAjw8arQBhB9EiwAfIKdQppb90uKU8NKwPuhPW7Y_S4RznlXHUI-3nngYTxAewUgIViytcgq5BoC9CUQAvD_BwE) | 1 | €12,59 | 
 | [arduino](https://www.123-3d.nl/123-3D-Arduino-Uno-Rev-3-clone-Arduino-compatible-i2286.html?utm_source=google&utm_medium=cpc&utm_campaign=PPC-SEA-NL-Google-Shopping-B-All-Segments-Parts-Electronics-CPA-02-00&gad_source=1&gad_campaignid=18925618742&gbraid=0AAAAAC164-QDrF7GzeNrhVDqncWMJ9kvG&gclid=Cj0KCQiA8KTNBhD_ARIsAOvp6DIiChWMlNo7wQswlYsGXGtb5-Uf0_ESEoJvM13B0mFs2YvTm7KTuc8aAugtEALw_wcB) | 1 | €16,00 |
 | [Stekkerblok](https://www.allekabels.be/stekkerdoos/7069/4387750/stekkerdoos-penaarde.html?mc=nl-be&gad_source=1&gad_campaignid=23384480523&gbraid=0AAAAAC3CB_qtY4OpM5_-fprDxz_QA0sEq&gclid=CjwKCAjw8arQBhB9EiwAfIKdQuOT8Zny5DlwZA6k9oBzUDrMvzsZFRJcDZzGcQ7nEkw-VssDObl66hoCwPIQAvD_BwE) | 1 | €5,89 | 
@@ -177,5 +177,6 @@ Volg deze stappen om het motor-systeem te bouwen en te testen.
 ![resultaat](./foto/resultaat-motor.png)
 - Het systeem beweegt de rails soepel met ingestelde stappen/mm.
 - Homing werkt betrouwbaar met eindschakelaars.
+- Drukknoppen laat de stang correct naar boven en beneden bewegen.
 
 
